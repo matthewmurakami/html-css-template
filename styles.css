@@ -1,12 +1,33 @@
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+  hr{
+    width: 100vw
+  }
+
+}
+
+h1 {
+  color: rgb(252, 252, 252);
+}
+
+h3 {
+  font-family: "Monaco";
+}
+
+
 #logoBar{
   width: 30vw;
-  height: 100vh;
+  height: 50vh;
 }
+
 #siteLogo{
   width: 100%;
 }
 body {
   display: flex;
+  background-color: rgb(240, 185, 74);
 }
 #staffGallery{
   width: 70vw;
@@ -17,4 +38,25 @@ body {
   width: 100%;
   height: auto;
   height: 300px;
+}
+#staffGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#charName{
+  font-family:"Monaco"
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
